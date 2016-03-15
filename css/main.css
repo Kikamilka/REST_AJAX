@@ -1,0 +1,41 @@
+section {
+    margin: 25px;
+    display: block;
+}
+
+section > div {
+    width: 30%;
+    padding: 10px;
+    float: left;
+    height: 600px;
+    overflow-y: auto;
+    border: 2px solid #5c5c5c;
+}
+
+#albums > div {
+    border: 1px solid black;
+    margin: 2px;
+    padding-left: 8px;
+}
+
+main {
+    margin-left: 32%;
+    padding: 10px;
+    display: flex;
+    width: 62%;
+    height: 600px;
+    border: 2px solid #5c5c5c;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+img {
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
